@@ -38,7 +38,7 @@ class Application:
         self.container6.pack()
         
         self.labelLogo = Label(self.container1)
-        youtube_logo = PhotoImage(file="youtube-logo.png")
+        youtube_logo = PhotoImage(file="images/youtube-logo.png")
         self.labelLogo["image"] = youtube_logo
         self.labelLogo.pack()
 
@@ -115,7 +115,7 @@ class Application:
 
         row, column = 1, 1
 
-        download_button_image = PhotoImage(file="download-button.png")
+        download_button_image = PhotoImage(file="images/download-button.png")
 
         for stream in self.streams:
             
@@ -177,6 +177,6 @@ class Application:
 
 root = Tk()
 root.title("YouTube Downloader")
-root.iconbitmap("favicon.ico")
+root.iconbitmap("images/favicon.ico")
 Application(root)
 root.mainloop()
