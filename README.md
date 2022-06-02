@@ -7,3 +7,4 @@ Developed with the libraries:
 
 ## Example
 
+![Youtube Downloader](https://raw.githubusercontent.com/diego-lucas/youtube-downloader/main/images/example.png)
